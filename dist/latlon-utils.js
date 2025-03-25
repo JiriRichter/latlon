@@ -492,4 +492,4 @@
   exports.parse = parse;
 
 }));
-//# sourceMappingURL=latlon.js.map
+//# sourceMappingURL=latlon-utils.js.map

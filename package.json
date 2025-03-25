@@ -2,7 +2,7 @@
   "name": "latlon-utils",
   "version": "1.0.1",
   "description": "A JavaScript library for obtaining data from weather.gov and tidesandcurrents.noaa.gov public web services provided by NOAA",
-  "main": "dist/latlon.js",
+  "main": "dist/latlon-utils.js",
   "type": "module",
   "files": [
     "dist",
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "npm run rollup && npm run uglify",
     "rollup": "rollup -c rollup.config.mjs",
-    "uglify": "uglifyjs dist/latlon.js -c -m -o dist/latlon.min.js --source-map filename=dist/latlon.min.js.map --comments",
+    "uglify": "uglifyjs dist/latlon-utils.js -c -m -o dist/latlon-utils.min.js --source-map filename=dist/latlon-utils.min.js.map --comments",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],

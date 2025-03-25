@@ -8,7 +8,7 @@ export default {
     input: 'src/index.js',
     output: [
         {
-            file: "dist/latlon.js",
+            file: "dist/latlon-utils.js",
             format: 'umd',
             name: 'LATLON',
             sourcemap: true
