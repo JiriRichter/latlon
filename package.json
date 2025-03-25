@@ -1,6 +1,6 @@
 {
   "name": "latlon-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript library for obtaining data from weather.gov and tidesandcurrents.noaa.gov public web services provided by NOAA",
   "main": "dist/latlon.js",
   "type": "module",
